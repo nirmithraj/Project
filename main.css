@@ -1,0 +1,174 @@
+#wrapper{margin:0 auto;
+		background:#BBFF00;
+		max-width:1000px;
+		width:96%;}
+#imageContainer{margin:0 auto;
+		background:#3186AD;
+		max-width:1000px;
+		width:96%;
+		}
+header{
+	text-align:centre;
+	
+	padding: 15px 15px 0px 15px;
+	color:#484848;
+	}
+header h1{
+	margin:0;
+	display:inline;	
+}
+head h2{
+	display:block;
+	padding:5px;
+}
+body {
+	margin:0;
+	background:url(bg1.jpg) center fixed no-repeat;
+	color:#484848;
+}
+nav ul li{
+	background:#lightblue;
+	display:inline-block;
+	padding:5px 15px;
+	
+	}
+nav ul li a {
+color:#484848;
+}
+ul li{
+	margin:0;
+	background:#A1C4D8;
+	display:inline-block;
+	padding:5px 15px;
+	
+	}
+	ul li a {
+color:#484848;
+}
+
+a {
+	color: #FF0000;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+.facilities_main{
+text-align:center;
+font-style:bold;
+}
+.facilities_main1{
+margin:0 auto;
+		background:lightblue;
+		max-width:1000px;
+		width:96%;
+text-align:justify;
+font-size: 20;
+font-style:bold;
+}
+.facilities_inpatient{
+text-align:center;
+font-style:bold;
+}
+.facilities_inpatient1{
+margin:0 auto;
+		background:lightblue;
+		max-width:1000px;
+		width:96%;
+text-align:justify;
+font-size: 20;
+font-style:bold;
+}
+.facilities_surgical{
+text-align:center;
+font-style:bold;
+}
+.facilities_surgical1{
+margin:0 auto;
+		background:lightblue;
+		max-width:1000px;
+		width:96%;
+text-align:justify;
+font-size: 20;
+font-style:bold;
+}
+.facilities_visitor{
+text-align:center;
+font-size: 20;
+font-style:bold;
+}
+.facilities_visitor1{
+margin:0 auto;
+		background:lightblue;
+		max-width:1000px;
+		width:96%;
+text-align:justify;
+font-size: 20;
+font-style:bold;
+}
+.aboutus{
+text-align:center;
+}
+.aboutus1{
+margin:0 auto;
+		background:lightblue;
+		max-width:1000px;
+		width:96%;
+text-align:justify;
+font-size: 20;
+font-style:bold;
+}
+.contact{
+text-align:center;
+}
+.contact1{
+margin:0 auto;
+		background:lightblue;
+		max-width:1000px;
+		width:96%;
+text-align:center;
+font-size: 20;
+font-style:bold;
+}
+fieldset{
+margin:0 auto;
+		background:#3186AD;
+		max-width:1000px;
+		width:96%;}
+legend{
+color:#FF0000;
+background:#333;
+}
+.appointment{
+margin:0 auto;
+		
+		max-width:1000px;
+		width:96%;
+text-align:center;
+font-size: 20;
+font-style:bold;
+}
+
+#form.message {color: #FF0000;font-weight: bold;text-align: center;width: 100%;padding: 10;}
+#form body{width:610px;}
+#form.demo-table {background:#FFDFDF;width: 100%;border-spacing: initial;margin: 20px 0px;word-break: break-word;table-layout: auto;line-height:1.8em;color:#333;}
+#form.demo-table td {padding: 20px 15px 10px 15px;}
+#form.demoInputBox {padding: 7px;border: #F0F0F0 1px solid;border-radius: 4px;}
+#form.btnRegister {padding: 10px;background-color: #09F;border: 0;color: #FFF;cursor: pointer;}

@@ -1,0 +1,68 @@
+Hi folks. ! 
+
+This is My project on Hospital Management System Website.
+
+I have named it as BHARATH HOSPITAL.
+
+Team Members
+Nirmithraj Mithyanthaya
+Mohammed Ashfaq
+
+Instructor
+Mr.Shriram 
+
+Here as a normal Website it consists of Gallery, Contact details, Facilities provided, Regional Language Support ( KANNADA) ,And user Accounts for Doctors and Employees. 
+
+Doctors can check appointments,Surgery timings and patient details in their login whereas an Employee can Check room , Diet foods for respective patients.
+
+
+
+So here are the Details about how to create Database.
+
+1.I have used PHP for Database using Xamp server.
+
+2.You have to download Xamp software
+
+3.Once installed Run the software and turn on the Appache and MySql server in it.
+
+4.Paste the whol project folder in C:\xampp\htdocs
+
+5.Go to chrome Browser and type >>    localhost/phpmyadmin   <<
+
+6.Now you will get the Php admin page.
+
+7.now you have to create database with repect to my pages.i have 3 database one for DOCTOR, EMPLOYEE and   PATIENT REGISTRATION
+
+8.Let me explain creation of DB for registration module alone as an example
+
+          Step 1. Create a database with name same as mentioned in the coding part
+          Step 2. Here for Patient Reg its > hospital <(Database name) under this new page as > reg <
+          Step 3. Give the no of rows and columns and give ok (here its 5columns) 
+          Step 4. Give appropriate names for each column. here its
+                        first_name
+                        last_name
+                         DOB
+                         contact
+                          email
+                           gender
+                            nationality
+                            occupation
+                          home_addr
+                          emg_addr
+                         blood_group
+               
+8.create the database with above exact names. (check out register1.php) Its register1.html but since its a Php DB to be run in php we have to save it as register1.php   format.
+
+9.Well this is it for DB creation.
+
+10. Now in chorme Browser type http://localhost/hospital/index.html
+
+11.Here you get your website :) 
+
+12. Apart from Reg form i mentioned above ,You need to create database for Login,doctors login funcs and employee login funcs.
+
+13.Do it in the same way. 
+
+14.So enjoy folks. i have explained as simpler as i could.But any more info you can leave a comment or refer youtube for videos :) 
+
+15. All the Best .!! HAMARA BHARATH ! JAI HINDH .!! 

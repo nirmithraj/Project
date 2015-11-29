@@ -1,0 +1,128 @@
+
+<html>
+<head>
+<title>BHARATH HOSPITALS</title>
+
+
+
+<link href="main.css" rel="stylesheet" type="text/css"/>
+
+
+
+<script type="text/javascript">
+ 
+var imgSlide;
+var pic = 0;
+window.onload = function ()
+{
+ 
+imgSlide = document.getElementById('img');
+ 
+// preload images
+images = new Array();
+images[0] = new Image();
+images[0].src = "slide1.jpg";
+images[1] = new Image();
+images[1].src = "slide2.jpg";
+images[2] = new Image();
+images[2].src = "slide3.jpg";
+images[3] = new Image();
+images[3].src = "slide4.jpg";
+ 
+}
+ 
+function slide()
+{
+imgSlide.src = images[pic].src;
+if(pic < 3) // images.length - 1 can be used here
+{
+pic++;
+}
+else
+{
+pic = 0
+ 
+}
+timer = setTimeout(slide, 2000);
+}
+ 
+function prev()
+{
+if(timer)
+stopSlide();
+ 
+if(pic == 0)
+{
+ 
+pic = 3;
+ 
+imgSlide.src = images[pic].src;
+}
+else
+{
+pic--;
+imgSlide.src = images[pic].src;
+}
+}
+ 
+function next()
+{
+if(timer)
+stopSlide();
+ 
+if(pic == 3)
+{
+ 
+pic = 0;
+imgSlide.src = images[pic].src;
+}
+else
+{
+pic++;
+imgSlide.src = images[pic].src;
+}
+ 
+ 
+}
+ 
+function stopSlide()
+{
+clearTimeout(timer);
+}
+ 
+ 
+</script>
+
+</head>
+<body>
+<header>
+<nav>
+<div id="wrapper">
+
+   <span style="padding-left:50px"><img src="bh.png" width="50" height="25">  <h1 style="color:blue">BHARATH HOSPITALS</h1></span>
+<ul>
+         <li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="Facilities.html">Facilities</a></li>
+        <li><a href="login editing.html">Login</a></li>
+        <li><a href="register1.php">Register</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+<li><a href="kannada.html">Kannada</a></li>
+
+<li><form method="get"action="http://www.google.com/search">
+<input style="width:150px"type="text"name="q"size="28"maxlength="240"value=""/>
+<input type="submit"value="Search"/></li>
+
+</ul>
+</nav>
+</header>
+<body>
+<div id="imageContainer"><img id="img" src="banner.jpg" alt="image" title="image"/></div>
+<a href="JavaScript:slide()" title="Start">Start</a><a href="JavaScript:next()" title="Next">Next</a><a href="JavaScript:prev()" title="Previous">Previous</a><a href="JavaScript:stopSlide()" title="Stop">Stop</a>
+<center><b>The flagship hospital of the Bharath group, Bharath Hospitals, Chennai, was established in 2015. </center>
+<center>Today it is one of the most respected hospitals in the world and is also amongst the most preferred destinations for patients from several parts of India,</center>
+<center>The hospital specializes in cutting-edge medical procedures. </center>
+</div> 
+</body>
+</html>
