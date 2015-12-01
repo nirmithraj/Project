@@ -2,7 +2,7 @@ Hi folks. !
 
 I am a Student of B.S ABDUR RAHAMAN UNIVERSITY,Chennai,India
 
-This project was done as part of Internet Programming Lab on Hopital Management System.
+This project was developed as part of Curriculum for the course Internet Programming Lab on Hopital Management System.
 
 I have named it as BHARATH HOSPITAL.
 
