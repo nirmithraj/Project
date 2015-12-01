@@ -1,15 +1,18 @@
 Hi folks. ! 
 
-This is My project on Hospital Management System Website.
+I am a Student of B.S ABDUR RAHAMAN UNIVERSITY,Chennai,India
+
+This project was done as part of Internet Programming Lab on Hopital Management System.
 
 I have named it as BHARATH HOSPITAL.
+
+Instructor
+Mr.Shriram
 
 Team Members
 Nirmithraj Mithyanthaya
 Mohammed Ashfaq
 
-Instructor
-Mr.Shriram 
 
 Here as a normal Website it consists of Gallery, Contact details, Facilities provided, Regional Language Support ( KANNADA) ,And user Accounts for Doctors and Employees. 
 
@@ -51,7 +54,7 @@ So here are the Details about how to create Database.
                           emg_addr
                          blood_group
                
-8.create the database with above exact names. (check out register1.php) Its register1.html but since its a Php DB to be run in php we have to save it as register1.php   format.
+8.Create the database with above exact names. (check out register1.php) Its register1.html but since its a Php DB to be run in php we have to save it as register1.php   format.
 
 9.Well this is it for DB creation.
 
@@ -65,4 +68,4 @@ So here are the Details about how to create Database.
 
 14.So enjoy folks. i have explained as simpler as i could.But any more info you can leave a comment or refer youtube for videos :) 
 
-15. All the Best .!! HAMARA BHARATH ! JAI HINDH .!! 
+15. All the Best .!! Hamara BHARATH ! Hamara India ! JAI HINDH .!! 
